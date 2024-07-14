@@ -32,15 +32,15 @@ add_library(
     # math_chebyshev.cpp
     # mathzone_add1.cpp
     # matrix.cpp
-    # matrix3.cpp
-    # memory.cpp
+    matrix3.cpp
+    memory.cpp
     # mymath.cpp
     # opt_CG.cpp
     # opt_DCsrch.cpp
     # realarray.cpp
     # sph_bessel_recursive-d1.cpp
     # sph_bessel_recursive-d2.cpp
-    # timer.cpp
+    timer.cpp
     # tool_check.cpp
     tool_quit.cpp
     tool_title.cpp
@@ -48,7 +48,7 @@ add_library(
     # abfs-vector3_order.cpp
     # parallel_common.cpp
     # parallel_global.cpp
-    # parallel_reduce.cpp
+    parallel_reduce.cpp
     # spherical_bessel_transformer.cpp
     # cubic_spline.cpp
     # module_mixing/mixing_data.cpp

@@ -16,6 +16,7 @@ list(APPEND objects
     # grid_bigcell.cpp
     # grid_meshball.cpp
     # grid_meshcell.cpp
+    ../module_base/tool_quit.cpp
     grid_meshk.cpp
     # grid_technique.cpp
     # gint_force_cpu_interface.cpp

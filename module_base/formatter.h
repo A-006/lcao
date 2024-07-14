@@ -14,7 +14,7 @@
 #include <utility>
 #include <cstdio>
 #include <numeric>
-#include "module_base/ndarray.h"
+#include "ndarray.h"
 /**
  * @brief 
  * 

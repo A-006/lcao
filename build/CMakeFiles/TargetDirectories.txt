@@ -1,9 +1,0 @@
-/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles/main.dir
-/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_base/CMakeFiles/base.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_base/CMakeFiles/edit_cache.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_base/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/edit_cache.dir
-/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/rebuild_cache.dir

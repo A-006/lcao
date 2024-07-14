@@ -5,7 +5,7 @@
 #include <cassert>
 #include "memory.h"
 #include "global_variable.h"
-#include "module_base/parallel_reduce.h"
+#include "parallel_reduce.h"
 
 namespace ModuleBase
 {

@@ -17,7 +17,7 @@
 #include <vector>
 
 #include "chrono"
-#include "module_base/formatter.h"
+#include "formatter.h"
 
 namespace ModuleBase
 {
