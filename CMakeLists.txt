@@ -17,4 +17,4 @@ find_package(LAPACK REQUIRED)
 # 添加可执行文件
 add_executable(main main.cpp)
 
-target_link_libraries(main  base gint ${OpenBLAS_LIBRARIES} ${LAPACK_LIBRARIES})
+# target_link_libraries(main  base gint ${OpenBLAS_LIBRARIES} ${LAPACK_LIBRARIES})

@@ -1,5 +1,5 @@
-#ifndef QUIT_H
-#define QUIT_H
+#ifndef TOOL_QUIT_H
+#define TOOL_QUIT_H
 
 #include <cassert>
 #include <complex>

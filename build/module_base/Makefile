@@ -130,6 +130,246 @@ base/fast:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/build
 .PHONY : base/fast
 
+global_function.o: global_function.cpp.o
+.PHONY : global_function.o
+
+# target to build an object file
+global_function.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_function.cpp.o
+.PHONY : global_function.cpp.o
+
+global_function.i: global_function.cpp.i
+.PHONY : global_function.i
+
+# target to preprocess a source file
+global_function.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_function.cpp.i
+.PHONY : global_function.cpp.i
+
+global_function.s: global_function.cpp.s
+.PHONY : global_function.s
+
+# target to generate assembly for a file
+global_function.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_function.cpp.s
+.PHONY : global_function.cpp.s
+
+global_variable.o: global_variable.cpp.o
+.PHONY : global_variable.o
+
+# target to build an object file
+global_variable.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_variable.cpp.o
+.PHONY : global_variable.cpp.o
+
+global_variable.i: global_variable.cpp.i
+.PHONY : global_variable.i
+
+# target to preprocess a source file
+global_variable.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_variable.cpp.i
+.PHONY : global_variable.cpp.i
+
+global_variable.s: global_variable.cpp.s
+.PHONY : global_variable.s
+
+# target to generate assembly for a file
+global_variable.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/global_variable.cpp.s
+.PHONY : global_variable.cpp.s
+
+intarray.o: intarray.cpp.o
+.PHONY : intarray.o
+
+# target to build an object file
+intarray.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/intarray.cpp.o
+.PHONY : intarray.cpp.o
+
+intarray.i: intarray.cpp.i
+.PHONY : intarray.i
+
+# target to preprocess a source file
+intarray.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/intarray.cpp.i
+.PHONY : intarray.cpp.i
+
+intarray.s: intarray.cpp.s
+.PHONY : intarray.s
+
+# target to generate assembly for a file
+intarray.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/intarray.cpp.s
+.PHONY : intarray.cpp.s
+
+math_bspline.o: math_bspline.cpp.o
+.PHONY : math_bspline.o
+
+# target to build an object file
+math_bspline.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_bspline.cpp.o
+.PHONY : math_bspline.cpp.o
+
+math_bspline.i: math_bspline.cpp.i
+.PHONY : math_bspline.i
+
+# target to preprocess a source file
+math_bspline.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_bspline.cpp.i
+.PHONY : math_bspline.cpp.i
+
+math_bspline.s: math_bspline.cpp.s
+.PHONY : math_bspline.s
+
+# target to generate assembly for a file
+math_bspline.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_bspline.cpp.s
+.PHONY : math_bspline.cpp.s
+
+math_chebyshev.o: math_chebyshev.cpp.o
+.PHONY : math_chebyshev.o
+
+# target to build an object file
+math_chebyshev.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_chebyshev.cpp.o
+.PHONY : math_chebyshev.cpp.o
+
+math_chebyshev.i: math_chebyshev.cpp.i
+.PHONY : math_chebyshev.i
+
+# target to preprocess a source file
+math_chebyshev.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_chebyshev.cpp.i
+.PHONY : math_chebyshev.cpp.i
+
+math_chebyshev.s: math_chebyshev.cpp.s
+.PHONY : math_chebyshev.s
+
+# target to generate assembly for a file
+math_chebyshev.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_chebyshev.cpp.s
+.PHONY : math_chebyshev.cpp.s
+
+math_integral.o: math_integral.cpp.o
+.PHONY : math_integral.o
+
+# target to build an object file
+math_integral.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_integral.cpp.o
+.PHONY : math_integral.cpp.o
+
+math_integral.i: math_integral.cpp.i
+.PHONY : math_integral.i
+
+# target to preprocess a source file
+math_integral.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_integral.cpp.i
+.PHONY : math_integral.cpp.i
+
+math_integral.s: math_integral.cpp.s
+.PHONY : math_integral.s
+
+# target to generate assembly for a file
+math_integral.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_integral.cpp.s
+.PHONY : math_integral.cpp.s
+
+math_lebedev_laikov.o: math_lebedev_laikov.cpp.o
+.PHONY : math_lebedev_laikov.o
+
+# target to build an object file
+math_lebedev_laikov.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_lebedev_laikov.cpp.o
+.PHONY : math_lebedev_laikov.cpp.o
+
+math_lebedev_laikov.i: math_lebedev_laikov.cpp.i
+.PHONY : math_lebedev_laikov.i
+
+# target to preprocess a source file
+math_lebedev_laikov.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_lebedev_laikov.cpp.i
+.PHONY : math_lebedev_laikov.cpp.i
+
+math_lebedev_laikov.s: math_lebedev_laikov.cpp.s
+.PHONY : math_lebedev_laikov.s
+
+# target to generate assembly for a file
+math_lebedev_laikov.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_lebedev_laikov.cpp.s
+.PHONY : math_lebedev_laikov.cpp.s
+
+math_polyint.o: math_polyint.cpp.o
+.PHONY : math_polyint.o
+
+# target to build an object file
+math_polyint.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_polyint.cpp.o
+.PHONY : math_polyint.cpp.o
+
+math_polyint.i: math_polyint.cpp.i
+.PHONY : math_polyint.i
+
+# target to preprocess a source file
+math_polyint.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_polyint.cpp.i
+.PHONY : math_polyint.cpp.i
+
+math_polyint.s: math_polyint.cpp.s
+.PHONY : math_polyint.s
+
+# target to generate assembly for a file
+math_polyint.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_polyint.cpp.s
+.PHONY : math_polyint.cpp.s
+
+math_sphbes.o: math_sphbes.cpp.o
+.PHONY : math_sphbes.o
+
+# target to build an object file
+math_sphbes.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_sphbes.cpp.o
+.PHONY : math_sphbes.cpp.o
+
+math_sphbes.i: math_sphbes.cpp.i
+.PHONY : math_sphbes.i
+
+# target to preprocess a source file
+math_sphbes.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_sphbes.cpp.i
+.PHONY : math_sphbes.cpp.i
+
+math_sphbes.s: math_sphbes.cpp.s
+.PHONY : math_sphbes.s
+
+# target to generate assembly for a file
+math_sphbes.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/math_sphbes.cpp.s
+.PHONY : math_sphbes.cpp.s
+
+matrix.o: matrix.cpp.o
+.PHONY : matrix.o
+
+# target to build an object file
+matrix.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/matrix.cpp.o
+.PHONY : matrix.cpp.o
+
+matrix.i: matrix.cpp.i
+.PHONY : matrix.i
+
+# target to preprocess a source file
+matrix.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
+
+matrix.s: matrix.cpp.s
+.PHONY : matrix.s
+
+# target to generate assembly for a file
+matrix.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
+
 matrix3.o: matrix3.cpp.o
 .PHONY : matrix3.o
 
@@ -177,6 +417,30 @@ memory.s: memory.cpp.s
 memory.cpp.s:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/memory.cpp.s
 .PHONY : memory.cpp.s
+
+parallel_common.o: parallel_common.cpp.o
+.PHONY : parallel_common.o
+
+# target to build an object file
+parallel_common.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/parallel_common.cpp.o
+.PHONY : parallel_common.cpp.o
+
+parallel_common.i: parallel_common.cpp.i
+.PHONY : parallel_common.i
+
+# target to preprocess a source file
+parallel_common.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/parallel_common.cpp.i
+.PHONY : parallel_common.cpp.i
+
+parallel_common.s: parallel_common.cpp.s
+.PHONY : parallel_common.s
+
+# target to generate assembly for a file
+parallel_common.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/parallel_common.cpp.s
+.PHONY : parallel_common.cpp.s
 
 parallel_reduce.o: parallel_reduce.cpp.o
 .PHONY : parallel_reduce.o
@@ -274,6 +538,30 @@ tool_title.cpp.s:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/tool_title.cpp.s
 .PHONY : tool_title.cpp.s
 
+ylm.o: ylm.cpp.o
+.PHONY : ylm.o
+
+# target to build an object file
+ylm.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/ylm.cpp.o
+.PHONY : ylm.cpp.o
+
+ylm.i: ylm.cpp.i
+.PHONY : ylm.i
+
+# target to preprocess a source file
+ylm.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/ylm.cpp.i
+.PHONY : ylm.cpp.i
+
+ylm.s: ylm.cpp.s
+.PHONY : ylm.s
+
+# target to generate assembly for a file
+ylm.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/ylm.cpp.s
+.PHONY : ylm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -283,12 +571,45 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... base"
+	@echo "... global_function.o"
+	@echo "... global_function.i"
+	@echo "... global_function.s"
+	@echo "... global_variable.o"
+	@echo "... global_variable.i"
+	@echo "... global_variable.s"
+	@echo "... intarray.o"
+	@echo "... intarray.i"
+	@echo "... intarray.s"
+	@echo "... math_bspline.o"
+	@echo "... math_bspline.i"
+	@echo "... math_bspline.s"
+	@echo "... math_chebyshev.o"
+	@echo "... math_chebyshev.i"
+	@echo "... math_chebyshev.s"
+	@echo "... math_integral.o"
+	@echo "... math_integral.i"
+	@echo "... math_integral.s"
+	@echo "... math_lebedev_laikov.o"
+	@echo "... math_lebedev_laikov.i"
+	@echo "... math_lebedev_laikov.s"
+	@echo "... math_polyint.o"
+	@echo "... math_polyint.i"
+	@echo "... math_polyint.s"
+	@echo "... math_sphbes.o"
+	@echo "... math_sphbes.i"
+	@echo "... math_sphbes.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
 	@echo "... matrix3.o"
 	@echo "... matrix3.i"
 	@echo "... matrix3.s"
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... parallel_common.o"
+	@echo "... parallel_common.i"
+	@echo "... parallel_common.s"
 	@echo "... parallel_reduce.o"
 	@echo "... parallel_reduce.i"
 	@echo "... parallel_reduce.s"
@@ -301,6 +622,9 @@ help:
 	@echo "... tool_title.o"
 	@echo "... tool_title.i"
 	@echo "... tool_title.s"
+	@echo "... ylm.o"
+	@echo "... ylm.i"
+	@echo "... ylm.s"
 .PHONY : help
 
 

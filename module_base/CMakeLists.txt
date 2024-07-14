@@ -19,19 +19,19 @@ add_library(
     # inverse_matrix.cpp
     # gather_math_lib_info.cpp
     # global_file.cpp
-    # global_function.cpp
+    global_function.cpp
     # global_function_ddotreal.cpp
-    # global_variable.cpp
-    # intarray.cpp
-    # math_integral.cpp
-    # math_lebedev_laikov.cpp
-    # math_polyint.cpp
-    # math_sphbes.cpp
+    global_variable.cpp
+    intarray.cpp
+    math_integral.cpp
+    math_lebedev_laikov.cpp
+    math_polyint.cpp
+    math_sphbes.cpp
     # math_ylmreal.cpp
-    # math_bspline.cpp
-    # math_chebyshev.cpp
+    math_bspline.cpp
+    math_chebyshev.cpp
     # mathzone_add1.cpp
-    # matrix.cpp
+    matrix.cpp
     matrix3.cpp
     memory.cpp
     # mymath.cpp
@@ -44,9 +44,8 @@ add_library(
     # tool_check.cpp
     tool_quit.cpp
     tool_title.cpp
-    # ylm.cpp
-    # abfs-vector3_order.cpp
-    # parallel_common.cpp
+    ylm.cpp
+    parallel_common.cpp
     # parallel_global.cpp
     parallel_reduce.cpp
     # spherical_bessel_transformer.cpp

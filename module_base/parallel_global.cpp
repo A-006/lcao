@@ -11,9 +11,9 @@
 #include <omp.h>
 #endif
 
-#include "module_base/global_function.h"
-#include "module_base/parallel_common.h"
-#include "module_base/parallel_reduce.h"
+#include "global_function.h"
+#include "parallel_common.h"
+#include "parallel_reduce.h"
 #include "version.h"
 
 #include <iostream>
