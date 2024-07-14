@@ -117,18 +117,18 @@ void get_block_info(const Grid_Technique& gt, const int bxyz, const int na_grid,
     {
         cal_flag[ib] = new bool[na_grid];
     }
-    const UnitCell& ucell = *gt.ucell;
+    // const UnitCell& ucell = *gt.ucell;
     block_index[0] = 0;
     for (int id = 0; id < na_grid; id++)
     {
         const int mcell_index = gt.bcell_start[grid_index] + id;
         const int iat = gt.which_atom[mcell_index];    // index of atom
-        const int it = ucell.iat2it[iat];              // index of atom type
-        const int ia = ucell.iat2ia[iat];              // index of atoms within each type
-        const int start = ucell.itiaiw2iwt(it, ia, 0); // the index of the first wave function for atom (it,ia)
+        const int it = 0;              // index of atom type
+        const int ia = 0;              // index of atoms within each type
+        const int start = 0; // the index of the first wave function for atom (it,ia)
         block_iw[id] = gt.trace_lo[start];
-        block_index[id + 1] = block_index[id] + ucell.atoms[it].nw;
-        block_size[id] = ucell.atoms[it].nw;
+        block_index[id + 1] = block_index[id] + 0;
+        block_size[id] = 0;
 
 			const int imcell=gt.which_bigcell[mcell_index];
 			const double mt[3] = {
@@ -166,14 +166,14 @@ void cal_dpsirr_ylm(
     double* const* const dpsir_ylm_yy, double* const* const dpsir_ylm_yz, double* const* const dpsir_ylm_zz)
 {
     ModuleBase::timer::tick("Gint_Tools", "cal_dpsirr_ylm");
-    const UnitCell& ucell = *gt.ucell;
+    // const UnitCell& ucell = *gt.ucell;
     for (int id = 0; id < na_grid; id++)
     {
         const int mcell_index = gt.bcell_start[grid_index] + id;
         const int imcell = gt.which_bigcell[mcell_index];
         int iat = gt.which_atom[mcell_index];
-        const int it = ucell.iat2it[iat];
-        Atom* atom = &ucell.atoms[it];
+        const int it = 0;
+        // Atom* atom = &ucell.atoms[it];
 
 			const double mt[3]={
 				gt.meshball_positions[imcell][0] - gt.tau_in_bigcell[iat][0],
@@ -207,7 +207,7 @@ void cal_dpsirr_ylm(
 						gt.meshcell_pos[ib][1] + mt[1],
 						gt.meshcell_pos[ib][2] + mt[2]};
 
-					for (int iw=0; iw< atom->nw; ++iw)
+					for (int iw=0; iw< 0; ++iw)
 					{
 
 						p_dpsi_xx[iw] = p_dpsi_x[iw]*dr[0];

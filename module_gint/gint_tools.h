@@ -5,8 +5,8 @@
 #define GINT_TOOLS_H
 #include "grid_technique.h"
 #include "module_base/ylm.h"
-#include "module_hamilt_lcao/module_hcontainer/hcontainer.h"
-#include "module_base/array_pool.h"
+// #include "./module_hcontainer/hcontainer.h"
+#include "./module_base/array_pool.h"
 
 namespace Gint_Tools
 {
@@ -195,7 +195,7 @@ void get_block_info(const Grid_Technique& gt,
 
 void init_orb(double& dr_uniform,
               std::vector<double>& rcuts,
-              UnitCell& ucell,
+            //   UnitCell& ucell,
               std::vector<std::vector<double>>& psi_u,
               std::vector<std::vector<double>>& dpsi_u,
               std::vector<std::vector<double>>& d2psi_u);
@@ -296,7 +296,7 @@ void mult_psi_DMR(const Grid_Technique& gt,
                   bool** cal_flag,
                   double** psi,
                   double** psi_DMR,
-                  const hamilt::HContainer<double>* DM,
+                //   const hamilt::HContainer<double>* DM,
                   const bool if_symm);
 
 // sum_nu rho_mu,nu psi_nu, for gamma point
@@ -312,7 +312,7 @@ void mult_psi_DM_new(
     const bool* const* const cal_flag, // cal_flag[bxyz][na_grid],	whether the atom-grid distance is larger than cutoff
     const double* const* const psi,    // psir_vlbr3[bxyz][LD_pool]
     double** psi_DM,
-    const hamilt::HContainer<double>* DM,
+    // const hamilt::HContainer<double>* DM,
     const bool if_symm);
 
 } // namespace Gint_Tools
