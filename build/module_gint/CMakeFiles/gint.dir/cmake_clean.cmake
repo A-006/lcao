@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o"
-  "CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o.d"
   "CMakeFiles/gint.dir/grid_meshk.cpp.o"
   "CMakeFiles/gint.dir/grid_meshk.cpp.o.d"
 )

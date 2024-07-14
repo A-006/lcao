@@ -44,7 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/desktop/github/abacus/gint/build/module_base/cmake_install.cmake")
   include("/home/ubuntu/desktop/github/abacus/gint/build/module_gint/cmake_install.cmake")
 
 endif()

@@ -69,24 +69,10 @@ include module_gint/CMakeFiles/gint.dir/progress.make
 # Include the compile flags for this target's objects.
 include module_gint/CMakeFiles/gint.dir/flags.make
 
-module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
-module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_base/tool_quit.cpp
-module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o"
-	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o -MF CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o.d -o CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_base/tool_quit.cpp
-
-module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.i"
-	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_base/tool_quit.cpp > CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.i
-
-module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.s"
-	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_base/tool_quit.cpp -o CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.s
-
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
 	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o -MF CMakeFiles/gint.dir/grid_meshk.cpp.o.d -o CMakeFiles/gint.dir/grid_meshk.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp
 
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.i: cmake_force
@@ -97,7 +83,6 @@ module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_meshk.cpp.s"
 	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp -o CMakeFiles/gint.dir/grid_meshk.cpp.s
 
-gint: module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/build.make
 .PHONY : gint

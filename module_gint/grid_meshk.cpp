@@ -46,6 +46,7 @@ void Grid_MeshK::init_ucell_para(void)
     this->num_ucell_para[1]=this->nu2;
     this->num_ucell_para[2]=this->nu3;
     this->num_ucell_para[3]=this->nutot;
+	printf("in init_ucell_para\n");
 }
 
 

@@ -1,10 +1,10 @@
 #ifndef GRID_MESHK_H
 #define GRID_MESHK_H
-#include "../module_base/tool_quit.h"
-#include "../module_base/tool_title.h"
-#include "../module_base/timer.h"
-#include "../module_base/memory.h"
-#include "../module_base/matrix3.h"
+#include "./module_base/tool_quit.h"
+#include "./module_base/tool_title.h"
+#include "./module_base/timer.h"
+#include "./module_base/memory.h"
+#include "./module_base/matrix3.h"
 class Grid_MeshK
 {
 	public:
@@ -25,7 +25,7 @@ class Grid_MeshK
 
         /// move operator for the next ESolver to directly use its infomation
         Grid_MeshK& operator=(Grid_MeshK&& rhs) = default;
-
+		void init_ucell_para(void);
       protected:
 		// the max and the min unitcell.
 		int maxu1;
@@ -46,7 +46,7 @@ class Grid_MeshK
 		void cal_extended_cell(const int &dxe, const int &dye, const int &dze,
 								const int& nbx, const int& nby, const int& nbz);
 		// initialize the unitcell parameters.
-		void init_ucell_para(void);
+		
 };
 
 #endif

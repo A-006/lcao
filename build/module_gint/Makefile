@@ -130,30 +130,6 @@ gint/fast:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/build
 .PHONY : gint/fast
 
-__/module_base/tool_quit.o: __/module_base/tool_quit.cpp.o
-.PHONY : __/module_base/tool_quit.o
-
-# target to build an object file
-__/module_base/tool_quit.cpp.o:
-	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.o
-.PHONY : __/module_base/tool_quit.cpp.o
-
-__/module_base/tool_quit.i: __/module_base/tool_quit.cpp.i
-.PHONY : __/module_base/tool_quit.i
-
-# target to preprocess a source file
-__/module_base/tool_quit.cpp.i:
-	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.i
-.PHONY : __/module_base/tool_quit.cpp.i
-
-__/module_base/tool_quit.s: __/module_base/tool_quit.cpp.s
-.PHONY : __/module_base/tool_quit.s
-
-# target to generate assembly for a file
-__/module_base/tool_quit.cpp.s:
-	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/__/module_base/tool_quit.cpp.s
-.PHONY : __/module_base/tool_quit.cpp.s
-
 grid_meshk.o: grid_meshk.cpp.o
 .PHONY : grid_meshk.o
 
@@ -187,9 +163,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gint"
-	@echo "... __/module_base/tool_quit.o"
-	@echo "... __/module_base/tool_quit.i"
-	@echo "... __/module_base/tool_quit.s"
 	@echo "... grid_meshk.o"
 	@echo "... grid_meshk.i"
 	@echo "... grid_meshk.s"

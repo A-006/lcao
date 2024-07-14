@@ -2,7 +2,7 @@ module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: \
  /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp \
  /usr/include/stdc-predef.h \
  /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/tool_quit.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/tool_quit.h \
  /usr/include/c++/12/cassert \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -207,8 +207,8 @@ module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/tool_title.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/timer.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/tool_title.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/timer.h \
  /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
  /usr/include/c++/12/ext/aligned_buffer.h \
  /usr/include/c++/12/bits/node_handle.h \
@@ -216,8 +216,8 @@ module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: \
  /usr/include/c++/12/bits/uses_allocator.h \
  /usr/include/c++/12/bits/stl_multimap.h \
  /usr/include/c++/12/bits/erase_if.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/memory.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/matrix3.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/matrix.h \
- /home/ubuntu/desktop/github/abacus/gint/module_gint/../module_base/vector3.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/memory.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/matrix3.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/matrix.h \
+ /home/ubuntu/desktop/github/abacus/gint/module_gint/./module_base/vector3.h \
  /usr/include/c++/12/array /usr/include/c++/12/compare

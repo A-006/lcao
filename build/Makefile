@@ -130,19 +130,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named base
-
-# Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
-.PHONY : base
-
-# fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f module_base/CMakeFiles/base.dir/build.make module_base/CMakeFiles/base.dir/build
-.PHONY : base/fast
-
-#=============================================================================
 # Target rules for targets named gint
 
 # Build rule for target.
@@ -154,6 +141,19 @@ gint: cmake_check_build_system
 gint/fast:
 	$(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/build
 .PHONY : gint/fast
+
+#=============================================================================
+# Target rules for targets named base
+
+# Build rule for target.
+base: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
+.PHONY : base
+
+# fast build rule for target.
+base/fast:
+	$(MAKE) $(MAKESILENT) -f module_gint/module_base/CMakeFiles/base.dir/build.make module_gint/module_base/CMakeFiles/base.dir/build
+.PHONY : base/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
