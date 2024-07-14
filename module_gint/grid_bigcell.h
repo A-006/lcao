@@ -46,10 +46,10 @@ class Grid_BigCell: public Grid_MeshCell
 		//---------------------------------
 		void grid_expansion_index(bool f2normal, int *target)const;
 		//---------------------------------
-		void init_big_latvec(const UnitCell &ucell);
+		void init_big_latvec();
 		//---------------------------------
-		void init_tau_in_bigcell(const UnitCell& ucell);
+		void init_tau_in_bigcell();
 		//---------------------------------
-		void init_grid_expansion(const UnitCell& ucell,double* rcut);
+		void init_grid_expansion(double* rcut);
 };
 #endif

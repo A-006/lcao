@@ -130,6 +130,102 @@ gint/fast:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/build
 .PHONY : gint/fast
 
+gint_tools.o: gint_tools.cpp.o
+.PHONY : gint_tools.o
+
+# target to build an object file
+gint_tools.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o
+.PHONY : gint_tools.cpp.o
+
+gint_tools.i: gint_tools.cpp.i
+.PHONY : gint_tools.i
+
+# target to preprocess a source file
+gint_tools.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint_tools.cpp.i
+.PHONY : gint_tools.cpp.i
+
+gint_tools.s: gint_tools.cpp.s
+.PHONY : gint_tools.s
+
+# target to generate assembly for a file
+gint_tools.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint_tools.cpp.s
+.PHONY : gint_tools.cpp.s
+
+grid_bigcell.o: grid_bigcell.cpp.o
+.PHONY : grid_bigcell.o
+
+# target to build an object file
+grid_bigcell.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o
+.PHONY : grid_bigcell.cpp.o
+
+grid_bigcell.i: grid_bigcell.cpp.i
+.PHONY : grid_bigcell.i
+
+# target to preprocess a source file
+grid_bigcell.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.i
+.PHONY : grid_bigcell.cpp.i
+
+grid_bigcell.s: grid_bigcell.cpp.s
+.PHONY : grid_bigcell.s
+
+# target to generate assembly for a file
+grid_bigcell.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.s
+.PHONY : grid_bigcell.cpp.s
+
+grid_meshball.o: grid_meshball.cpp.o
+.PHONY : grid_meshball.o
+
+# target to build an object file
+grid_meshball.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o
+.PHONY : grid_meshball.cpp.o
+
+grid_meshball.i: grid_meshball.cpp.i
+.PHONY : grid_meshball.i
+
+# target to preprocess a source file
+grid_meshball.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.i
+.PHONY : grid_meshball.cpp.i
+
+grid_meshball.s: grid_meshball.cpp.s
+.PHONY : grid_meshball.s
+
+# target to generate assembly for a file
+grid_meshball.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.s
+.PHONY : grid_meshball.cpp.s
+
+grid_meshcell.o: grid_meshcell.cpp.o
+.PHONY : grid_meshcell.o
+
+# target to build an object file
+grid_meshcell.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o
+.PHONY : grid_meshcell.cpp.o
+
+grid_meshcell.i: grid_meshcell.cpp.i
+.PHONY : grid_meshcell.i
+
+# target to preprocess a source file
+grid_meshcell.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.i
+.PHONY : grid_meshcell.cpp.i
+
+grid_meshcell.s: grid_meshcell.cpp.s
+.PHONY : grid_meshcell.s
+
+# target to generate assembly for a file
+grid_meshcell.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.s
+.PHONY : grid_meshcell.cpp.s
+
 grid_meshk.o: grid_meshk.cpp.o
 .PHONY : grid_meshk.o
 
@@ -153,6 +249,30 @@ grid_meshk.s: grid_meshk.cpp.s
 grid_meshk.cpp.s:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.s
 .PHONY : grid_meshk.cpp.s
+
+grid_technique.o: grid_technique.cpp.o
+.PHONY : grid_technique.o
+
+# target to build an object file
+grid_technique.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o
+.PHONY : grid_technique.cpp.o
+
+grid_technique.i: grid_technique.cpp.i
+.PHONY : grid_technique.i
+
+# target to preprocess a source file
+grid_technique.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_technique.cpp.i
+.PHONY : grid_technique.cpp.i
+
+grid_technique.s: grid_technique.cpp.s
+.PHONY : grid_technique.s
+
+# target to generate assembly for a file
+grid_technique.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/grid_technique.cpp.s
+.PHONY : grid_technique.cpp.s
 
 module_base/global_file.o: module_base/global_file.cpp.o
 .PHONY : module_base/global_file.o
@@ -225,6 +345,102 @@ module_base/global_variable.s: module_base/global_variable.cpp.s
 module_base/global_variable.cpp.s:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.s
 .PHONY : module_base/global_variable.cpp.s
+
+module_base/matrix.o: module_base/matrix.cpp.o
+.PHONY : module_base/matrix.o
+
+# target to build an object file
+module_base/matrix.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o
+.PHONY : module_base/matrix.cpp.o
+
+module_base/matrix.i: module_base/matrix.cpp.i
+.PHONY : module_base/matrix.i
+
+# target to preprocess a source file
+module_base/matrix.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.i
+.PHONY : module_base/matrix.cpp.i
+
+module_base/matrix.s: module_base/matrix.cpp.s
+.PHONY : module_base/matrix.s
+
+# target to generate assembly for a file
+module_base/matrix.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.s
+.PHONY : module_base/matrix.cpp.s
+
+module_base/matrix3.o: module_base/matrix3.cpp.o
+.PHONY : module_base/matrix3.o
+
+# target to build an object file
+module_base/matrix3.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o
+.PHONY : module_base/matrix3.cpp.o
+
+module_base/matrix3.i: module_base/matrix3.cpp.i
+.PHONY : module_base/matrix3.i
+
+# target to preprocess a source file
+module_base/matrix3.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.i
+.PHONY : module_base/matrix3.cpp.i
+
+module_base/matrix3.s: module_base/matrix3.cpp.s
+.PHONY : module_base/matrix3.s
+
+# target to generate assembly for a file
+module_base/matrix3.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.s
+.PHONY : module_base/matrix3.cpp.s
+
+module_base/memory.o: module_base/memory.cpp.o
+.PHONY : module_base/memory.o
+
+# target to build an object file
+module_base/memory.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o
+.PHONY : module_base/memory.cpp.o
+
+module_base/memory.i: module_base/memory.cpp.i
+.PHONY : module_base/memory.i
+
+# target to preprocess a source file
+module_base/memory.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.i
+.PHONY : module_base/memory.cpp.i
+
+module_base/memory.s: module_base/memory.cpp.s
+.PHONY : module_base/memory.s
+
+# target to generate assembly for a file
+module_base/memory.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.s
+.PHONY : module_base/memory.cpp.s
+
+module_base/parallel_reduce.o: module_base/parallel_reduce.cpp.o
+.PHONY : module_base/parallel_reduce.o
+
+# target to build an object file
+module_base/parallel_reduce.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o
+.PHONY : module_base/parallel_reduce.cpp.o
+
+module_base/parallel_reduce.i: module_base/parallel_reduce.cpp.i
+.PHONY : module_base/parallel_reduce.i
+
+# target to preprocess a source file
+module_base/parallel_reduce.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.i
+.PHONY : module_base/parallel_reduce.cpp.i
+
+module_base/parallel_reduce.s: module_base/parallel_reduce.cpp.s
+.PHONY : module_base/parallel_reduce.s
+
+# target to generate assembly for a file
+module_base/parallel_reduce.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.s
+.PHONY : module_base/parallel_reduce.cpp.s
 
 module_base/timer.o: module_base/timer.cpp.o
 .PHONY : module_base/timer.o
@@ -307,9 +523,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gint"
+	@echo "... gint_tools.o"
+	@echo "... gint_tools.i"
+	@echo "... gint_tools.s"
+	@echo "... grid_bigcell.o"
+	@echo "... grid_bigcell.i"
+	@echo "... grid_bigcell.s"
+	@echo "... grid_meshball.o"
+	@echo "... grid_meshball.i"
+	@echo "... grid_meshball.s"
+	@echo "... grid_meshcell.o"
+	@echo "... grid_meshcell.i"
+	@echo "... grid_meshcell.s"
 	@echo "... grid_meshk.o"
 	@echo "... grid_meshk.i"
 	@echo "... grid_meshk.s"
+	@echo "... grid_technique.o"
+	@echo "... grid_technique.i"
+	@echo "... grid_technique.s"
 	@echo "... module_base/global_file.o"
 	@echo "... module_base/global_file.i"
 	@echo "... module_base/global_file.s"
@@ -319,6 +550,18 @@ help:
 	@echo "... module_base/global_variable.o"
 	@echo "... module_base/global_variable.i"
 	@echo "... module_base/global_variable.s"
+	@echo "... module_base/matrix.o"
+	@echo "... module_base/matrix.i"
+	@echo "... module_base/matrix.s"
+	@echo "... module_base/matrix3.o"
+	@echo "... module_base/matrix3.i"
+	@echo "... module_base/matrix3.s"
+	@echo "... module_base/memory.o"
+	@echo "... module_base/memory.i"
+	@echo "... module_base/memory.s"
+	@echo "... module_base/parallel_reduce.o"
+	@echo "... module_base/parallel_reduce.i"
+	@echo "... module_base/parallel_reduce.s"
 	@echo "... module_base/timer.o"
 	@echo "... module_base/timer.i"
 	@echo "... module_base/timer.s"

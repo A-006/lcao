@@ -45,7 +45,7 @@ void Grid_MeshCell::set_grid_dim(
 
 
 // (1)
-void Grid_MeshCell::init_latvec(const UnitCell &ucell)
+void Grid_MeshCell::init_latvec(void)
 {
 	ModuleBase::TITLE("Grid_MeshCell","init_latvec");
 	// initialize the mesh cell vectors.
@@ -55,19 +55,19 @@ void Grid_MeshCell::init_latvec(const UnitCell &ucell)
 
 	//size of each room (same shape with unitcell)
 	this->meshcell_vec1=std::vector<double>(3,0.0);
-	this->meshcell_vec1[0]=ucell.a1.x / (double)ncx * ucell.lat0;
-	this->meshcell_vec1[1]=ucell.a1.y / (double)ncx * ucell.lat0;
-	this->meshcell_vec1[2]=ucell.a1.z / (double)ncx * ucell.lat0;
+	// this->meshcell_vec1[0]=ucell.a1.x / (double)ncx * ucell.lat0;
+	// this->meshcell_vec1[1]=ucell.a1.y / (double)ncx * ucell.lat0;
+	// this->meshcell_vec1[2]=ucell.a1.z / (double)ncx * ucell.lat0;
 
 	this->meshcell_vec2=std::vector<double>(3,0.0);
-	this->meshcell_vec2[0]=ucell.a2.x / (double)ncy * ucell.lat0;
-	this->meshcell_vec2[1]=ucell.a2.y / (double)ncy * ucell.lat0;
-	this->meshcell_vec2[2]=ucell.a2.z / (double)ncy * ucell.lat0;
+	// this->meshcell_vec2[0]=ucell.a2.x / (double)ncy * ucell.lat0;
+	// this->meshcell_vec2[1]=ucell.a2.y / (double)ncy * ucell.lat0;
+	// this->meshcell_vec2[2]=ucell.a2.z / (double)ncy * ucell.lat0;
 
 	this->meshcell_vec3=std::vector<double>(3,0.0);
-	this->meshcell_vec3[0]=ucell.a3.x / (double)ncz * ucell.lat0;
-	this->meshcell_vec3[1]=ucell.a3.y / (double)ncz * ucell.lat0;
-	this->meshcell_vec3[2]=ucell.a3.z / (double)ncz * ucell.lat0;
+	// this->meshcell_vec3[0]=ucell.a3.x / (double)ncz * ucell.lat0;
+	// this->meshcell_vec3[1]=ucell.a3.y / (double)ncz * ucell.lat0;
+	// this->meshcell_vec3[2]=ucell.a3.z / (double)ncz * ucell.lat0;
 
 	this->meshcell_latvec0.e11 = this->meshcell_vec1[0];
 	this->meshcell_latvec0.e12 = this->meshcell_vec1[1];

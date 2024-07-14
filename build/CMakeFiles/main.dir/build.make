@@ -95,7 +95,16 @@ main_EXTERNAL_OBJECTS = \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/tool_title.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.o" \
-"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o"
 
 main: CMakeFiles/main.dir/main.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/timer.cpp.o
@@ -104,7 +113,16 @@ main: module_gint/CMakeFiles/gint.dir/module_base/global_function.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/tool_title.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o
+main: module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o
+main: module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o
+main: module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o
+main: module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o
 main: module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o
+main: module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libopenblas.so
 main: CMakeFiles/main.dir/link.txt

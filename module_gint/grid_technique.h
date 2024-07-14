@@ -79,7 +79,7 @@ class Grid_Technique : public Grid_MeshBall {
     int binary_search_find_R2_offset(int val, int iat) const;
 
     // UnitCell and LCAO_Obrbitals
-    const UnitCell* ucell;
+    // const UnitCell* ucell;
     const LCAO_Orbitals* orb;
 
     // UnitCell parameters
@@ -127,7 +127,7 @@ class Grid_Technique : public Grid_MeshBall {
                       const int& ny,
                       const int& nplane,
                       const int& startz_current,
-                      const UnitCell& ucell,
+                      // const UnitCell& ucell,
                       const double& dr_uniform,
                       const std::vector<double>& rcuts,
                       const std::vector<std::vector<double>>& psi_u,
@@ -174,12 +174,14 @@ class Grid_Technique : public Grid_MeshBall {
     void init_atoms_on_grid(const int& ny,
                             const int& nplane,
                             const int& startz_current,
-                            const UnitCell& ucell,
+                            // const UnitCell& ucell,
                             std::ofstream &ofs_running,
                             std::ofstream& ofs_warning);
-    void init_atoms_on_grid2(const int* index2normal, const UnitCell& ucell);
+    void init_atoms_on_grid2(const int* index2normal
+                            // const UnitCell& ucell
+                            );
     void cal_grid_integration_index(std::ofstream &ofs_warning);
-    void cal_trace_lo(const UnitCell& ucell);
+    void cal_trace_lo();
     void check_bigcell(int* ind_bigcell, char* bigcell_on_processor);
     void get_startind(const int& ny,
                       const int& nplane,

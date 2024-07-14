@@ -8,6 +8,11 @@ list(APPEND objects
       module_base/global_variable.cpp
       module_base/tool_title.cpp
       module_base/tool_quit.cpp    
+      module_base/matrix.cpp
+      module_base/matrix3.cpp
+      module_base/memory.cpp
+      module_base/vector3.h
+      module_base/parallel_reduce.cpp
 )
 list(APPEND objects
     # gint.cpp
@@ -21,13 +26,12 @@ list(APPEND objects
     # gint_k_sparse1.cpp
     # gint_k_pvpr.cpp
     # gint_k_pvdpr.cpp
-    # gint_tools.cpp
-    # grid_bigcell.cpp
-    # grid_meshball.cpp
-    # grid_meshcell.cpp
-
+    gint_tools.cpp
+    grid_bigcell.cpp
+    grid_meshball.cpp
+    grid_meshcell.cpp
     grid_meshk.cpp
-    # grid_technique.cpp
+    grid_technique.cpp
     # gint_force_cpu_interface.cpp
     # gint_rho_cpu_interface.cpp
     # gint_vl_cpu_interface.cpp

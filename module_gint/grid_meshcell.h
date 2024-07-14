@@ -1,7 +1,7 @@
 #ifndef GRID_MESHCELL_H
 #define GRID_MESHCELL_H
 #include "grid_meshk.h"
-#include "module_cell/unitcell.h"
+// #include "module_cell/unitcell.h"
 class Grid_MeshCell: public Grid_MeshK
 {
 	public:
@@ -41,7 +41,7 @@ class Grid_MeshCell: public Grid_MeshK
 			const int &nbzp_start_in,
 			const int &nbzp_in);
 
-	void init_latvec(const UnitCell &ucell);
+	void init_latvec(void);
     void init_meshcell_pos(void);
 
 };

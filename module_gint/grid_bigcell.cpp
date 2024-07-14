@@ -17,7 +17,7 @@ Grid_BigCell::~Grid_BigCell()
 {
 }
 
-void Grid_BigCell::init_big_latvec(const UnitCell& ucell)
+void Grid_BigCell::init_big_latvec()
 {
 	ModuleBase::TITLE("Grid_BigCell","init_big_latvec");
 	// initialize the mesh cell vectors.
@@ -25,22 +25,22 @@ void Grid_BigCell::init_big_latvec(const UnitCell& ucell)
 	assert(nby>0);
 	assert(nbz>=0);
 
-	this->nat=ucell.nat;
+	// this->nat=ucell.nat;
 	//size of each big room (same shape with unitcell)
 	this->bigcell_vec1=std::vector<double>(3,0.0);
-	this->bigcell_vec1[0]=ucell.a1.x / (double)nbx * ucell.lat0;
-	this->bigcell_vec1[1]=ucell.a1.y / (double)nbx * ucell.lat0;
-	this->bigcell_vec1[2]=ucell.a1.z / (double)nbx * ucell.lat0;
+	// this->bigcell_vec1[0]=ucell.a1.x / (double)nbx * ucell.lat0;
+	// this->bigcell_vec1[1]=ucell.a1.y / (double)nbx * ucell.lat0;
+	// this->bigcell_vec1[2]=ucell.a1.z / (double)nbx * ucell.lat0;
 
 	this->bigcell_vec2=std::vector<double>(3,0.0);
-	this->bigcell_vec2[0]=ucell.a2.x / (double)nby * ucell.lat0;
-	this->bigcell_vec2[1]=ucell.a2.y / (double)nby * ucell.lat0;
-	this->bigcell_vec2[2]=ucell.a2.z / (double)nby * ucell.lat0;
+	// this->bigcell_vec2[0]=ucell.a2.x / (double)nby * ucell.lat0;
+	// this->bigcell_vec2[1]=ucell.a2.y / (double)nby * ucell.lat0;
+	// this->bigcell_vec2[2]=ucell.a2.z / (double)nby * ucell.lat0;
 
 	this->bigcell_vec3=std::vector<double>(3,0.0);
-	this->bigcell_vec3[0]=ucell.a3.x / (double)nbz * ucell.lat0;
-	this->bigcell_vec3[1]=ucell.a3.y / (double)nbz * ucell.lat0;
-	this->bigcell_vec3[2]=ucell.a3.z / (double)nbz * ucell.lat0;
+	// this->bigcell_vec3[0]=ucell.a3.x / (double)nbz * ucell.lat0;
+	// this->bigcell_vec3[1]=ucell.a3.y / (double)nbz * ucell.lat0;
+	// this->bigcell_vec3[2]=ucell.a3.z / (double)nbz * ucell.lat0;
 
 	this->bigcell_latvec0.e11 = this->bigcell_vec1[0];
 	this->bigcell_latvec0.e12 = this->bigcell_vec1[1];
@@ -68,17 +68,17 @@ void Grid_BigCell::init_big_latvec(const UnitCell& ucell)
 }
 
 
-void Grid_BigCell::init_grid_expansion(const UnitCell& ucell,double* rcut)
+void Grid_BigCell::init_grid_expansion(double* rcut)
 {
 	ModuleBase::TITLE("Grid_BigCell","init_grid_expansion");
 
 	// calculate the max cutoff radius among all orbitals.
 	// then we will use this parameter to generate grid expansion.
 
-	for(int T=0; T<ucell.ntype; T++)
-	{
-		this->orbital_rmax = std::max( rcut[T], this->orbital_rmax);
-	}
+	// for(int T=0; T<ucell.ntype; T++)
+	// {
+	// 	this->orbital_rmax = std::max( rcut[T], this->orbital_rmax);
+	// }
 
 	// mohan fixed serious bug 2010-03-06
 	// G = GT^T
@@ -120,121 +120,121 @@ void Grid_BigCell::init_grid_expansion(const UnitCell& ucell,double* rcut)
 }
 
 
-void Grid_BigCell::init_tau_in_bigcell(const UnitCell& ucell)
+void Grid_BigCell::init_tau_in_bigcell()
 {
 	ModuleBase::TITLE("Grid_BigCell","init_tau_in_bigcell");
 	
 	// allcoate space for atom positions relative
 	// to meshcell.
-	this->tau_in_bigcell = std::vector<std::vector<double>>(ucell.nat,std::vector<double>(3,0.0));
-	ModuleBase::Memory::record("tau_in_bigcell", sizeof(double) * ucell.nat*3);
+	// this->tau_in_bigcell = std::vector<std::vector<double>>(ucell.nat,std::vector<double>(3,0.0));
+	// ModuleBase::Memory::record("tau_in_bigcell", sizeof(double) * ucell.nat*3);
 	// allocate space, these arrays record which meshcell
 	// the atom is in.
-	this->index_atom = std::vector<int>(ucell.nat, 0);
-	ModuleBase::Memory::record("index_atom", sizeof(double) * ucell.nat);
+	// this->index_atom = std::vector<int>(ucell.nat, 0);
+	// ModuleBase::Memory::record("index_atom", sizeof(double) * ucell.nat);
 	
 	// get the fraction number of (i,j,k)
 	ModuleBase::Vector3<double> fraction;
 	int iat=0;
 	int ii,jj,kk;
 	double delta[3];
-	for(int it=0; it<ucell.ntype; it++)
-	{
-		for(int ia=0; ia<ucell.atoms[it].na; ia++)
-		{
-			// direct positions of atoms calculated from cartesian coordinates.
-			// not used because the factrion may be <0 (although very small, such as
-			// -1.0e-15) mohan note 2012-07-03
-			//fraction = ( ucell.atoms[it].tau[ia] * ucell.lat0 )* this->bigcell_GT;
+// 	for(int it=0; it<ucell.ntype; it++)
+// 	{
+// 		for(int ia=0; ia<ucell.atoms[it].na; ia++)
+// 		{
+// 			// direct positions of atoms calculated from cartesian coordinates.
+// 			// not used because the factrion may be <0 (although very small, such as
+// 			// -1.0e-15) mohan note 2012-07-03
+// 			//fraction = ( ucell.atoms[it].tau[ia] * ucell.lat0 )* this->bigcell_GT;
 
-			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			// mohan add 2012-07-03,
-			// this can make sure faction are always larger than 0.
-			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			fraction.x = ucell.atoms[it].taud[ia].x / (1.0/(double)nbx);
-			fraction.y = ucell.atoms[it].taud[ia].y / (1.0/(double)nby);
-			fraction.z = ucell.atoms[it].taud[ia].z / (1.0/(double)nbz);
+// 			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 			// mohan add 2012-07-03,
+// 			// this can make sure faction are always larger than 0.
+// 			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 			fraction.x = ucell.atoms[it].taud[ia].x / (1.0/(double)nbx);
+// 			fraction.y = ucell.atoms[it].taud[ia].y / (1.0/(double)nby);
+// 			fraction.z = ucell.atoms[it].taud[ia].z / (1.0/(double)nbz);
 
-			// never use the following, especially for k-algorithm,
-			// it may move the atom to a cell that it doesn't belong 
-			// to
-			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			// mohan add 2012-06-07
-			// fraction may be very very small, about -1.0e-15,
-			// and the fraction must > 0, so I use periodic boundary condition
-//			if( fraction.x < 0.0 ) fraction.x += nxe;
-//			if( fraction.y < 0.0 ) fraction.y += nye;
-//			if( fraction.z < 0.0 ) fraction.z += nze;
+// 			// never use the following, especially for k-algorithm,
+// 			// it may move the atom to a cell that it doesn't belong 
+// 			// to
+// 			//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 			// mohan add 2012-06-07
+// 			// fraction may be very very small, about -1.0e-15,
+// 			// and the fraction must > 0, so I use periodic boundary condition
+// //			if( fraction.x < 0.0 ) fraction.x += nxe;
+// //			if( fraction.y < 0.0 ) fraction.y += nye;
+// //			if( fraction.z < 0.0 ) fraction.z += nze;
 
 
 
-			if( fraction.x < 0 || fraction.y < 0 || fraction.z < 0)
-			{
-				std::cout << " Atom positions " << std::endl;
-				std::cout << ucell.atoms[it].tau[ia].x << " " ;
-				std::cout << ucell.atoms[it].tau[ia].y << " " ;
-				std::cout << ucell.atoms[it].tau[ia].z << " " ;
-				std::cout << " fraction " << std::endl;
-				std::cout << fraction.x << " ";
-				std::cout << fraction.y << " ";
-				std::cout << fraction.z << " ";
-				std::cout << std::endl;
-				ModuleBase::WARNING_QUIT("Grid_BigCell::init_tau_in_bigcell","fraction.x<0 || fraction.y<0 || fraction.z<0");
-			}
+// 			if( fraction.x < 0 || fraction.y < 0 || fraction.z < 0)
+// 			{
+// 				std::cout << " Atom positions " << std::endl;
+// 				std::cout << ucell.atoms[it].tau[ia].x << " " ;
+// 				std::cout << ucell.atoms[it].tau[ia].y << " " ;
+// 				std::cout << ucell.atoms[it].tau[ia].z << " " ;
+// 				std::cout << " fraction " << std::endl;
+// 				std::cout << fraction.x << " ";
+// 				std::cout << fraction.y << " ";
+// 				std::cout << fraction.z << " ";
+// 				std::cout << std::endl;
+// 				ModuleBase::WARNING_QUIT("Grid_BigCell::init_tau_in_bigcell","fraction.x<0 || fraction.y<0 || fraction.z<0");
+// 			}
 
-			assert(fraction.x >= 0.0);
-			assert(fraction.y >= 0.0);
-			assert(fraction.z >= 0.0);
+// 			assert(fraction.x >= 0.0);
+// 			assert(fraction.y >= 0.0);
+// 			assert(fraction.z >= 0.0);
 
-			// make clean which meshcell the atom is in.
-			ii = static_cast<int>(fraction.x+1.0e-8);
-			jj = static_cast<int>(fraction.y+1.0e-8);
-			kk = static_cast<int>(fraction.z+1.0e-8);
+// 			// make clean which meshcell the atom is in.
+// 			ii = static_cast<int>(fraction.x+1.0e-8);
+// 			jj = static_cast<int>(fraction.y+1.0e-8);
+// 			kk = static_cast<int>(fraction.z+1.0e-8);
 	
-			// calculate the index of each corresponding meshcell.
-			// Notice ! In fact, we need to minus ii,jj,kk by 1.
-			// to label the atom belong to which meshcell
-			// in a usual way: left, down corner.
-			// if we dont' do this, means the start position 
-			// of atom is another tyep: right,up corner.
-			// which cause minus atom position in grid integration.
+// 			// calculate the index of each corresponding meshcell.
+// 			// Notice ! In fact, we need to minus ii,jj,kk by 1.
+// 			// to label the atom belong to which meshcell
+// 			// in a usual way: left, down corner.
+// 			// if we dont' do this, means the start position 
+// 			// of atom is another tyep: right,up corner.
+// 			// which cause minus atom position in grid integration.
 
-			// index_atom: atom 'iat' index in extended grid.
-			this->index_atom[iat] = (kk+dze) + (jj+dye) * this->nze + (ii+dxe) * this->nye * this->nze;
+// 			// index_atom: atom 'iat' index in extended grid.
+// 			this->index_atom[iat] = (kk+dze) + (jj+dye) * this->nze + (ii+dxe) * this->nye * this->nze;
 
-			/*
-			if(index_atom[iat]==3483935)
-			{
-				std::cout << "\n i=" << kk+dze << " j=" << jj+dye << " k=" << ii+dxe;
-				BLOCK_HERE("check index atom");
-			}
-			*/
+// 			/*
+// 			if(index_atom[iat]==3483935)
+// 			{
+// 				std::cout << "\n i=" << kk+dze << " j=" << jj+dye << " k=" << ii+dxe;
+// 				BLOCK_HERE("check index atom");
+// 			}
+// 			*/
 
-			// get the relative position in direct coordinate.
-			delta[0] = fraction.x - (double)ii;
-			delta[1] = fraction.y - (double)jj;
-			delta[2] = fraction.z - (double)kk;
+// 			// get the relative position in direct coordinate.
+// 			delta[0] = fraction.x - (double)ii;
+// 			delta[1] = fraction.y - (double)jj;
+// 			delta[2] = fraction.z - (double)kk;
 			
-			if( std::abs(delta[0]) < 1.0e-8) delta[0] = 0.0;
-			if( std::abs(delta[1]) < 1.0e-8) delta[1] = 0.0;
-			if( std::abs(delta[2]) < 1.0e-8) delta[2] = 0.0;
+// 			if( std::abs(delta[0]) < 1.0e-8) delta[0] = 0.0;
+// 			if( std::abs(delta[1]) < 1.0e-8) delta[1] = 0.0;
+// 			if( std::abs(delta[2]) < 1.0e-8) delta[2] = 0.0;
 
-//			std::cout << " fraction=" << fraction.x << " " << fraction.y << " " << fraction.z << std::endl;
-//			std::cout << " delta=" << delta[0] << " " << delta[1] << " " << delta[2] << std::endl;
+// //			std::cout << " fraction=" << fraction.x << " " << fraction.y << " " << fraction.z << std::endl;
+// //			std::cout << " delta=" << delta[0] << " " << delta[1] << " " << delta[2] << std::endl;
 
-			// get the true relative cartesian coordinate of each atom to the coresponding
-			// meshcell.
-			for(int ic=0; ic<3; ic++)
-			{
-				this->tau_in_bigcell[iat][ic] = 
-					delta[0] * this->bigcell_vec1[ic] + 
-					delta[1] * this->bigcell_vec2[ic] + 
-					delta[2] * this->bigcell_vec3[ic];
-			}
+// 			// get the true relative cartesian coordinate of each atom to the coresponding
+// 			// meshcell.
+// 			for(int ic=0; ic<3; ic++)
+// 			{
+// 				this->tau_in_bigcell[iat][ic] = 
+// 					delta[0] * this->bigcell_vec1[ic] + 
+// 					delta[1] * this->bigcell_vec2[ic] + 
+// 					delta[2] * this->bigcell_vec3[ic];
+// 			}
 
-			++iat;
-		}
-	}
+// 			++iat;
+// 		}
+// 	}
 
 	return;
 }

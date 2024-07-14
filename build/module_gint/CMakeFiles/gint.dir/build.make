@@ -153,10 +153,122 @@ module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/module_base/tool_quit.cpp.s"
 	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/tool_quit.cpp -o CMakeFiles/gint.dir/module_base/tool_quit.cpp.s
 
+module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix.cpp
+module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o -MF CMakeFiles/gint.dir/module_base/matrix.cpp.o.d -o CMakeFiles/gint.dir/module_base/matrix.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix.cpp
+
+module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/module_base/matrix.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix.cpp > CMakeFiles/gint.dir/module_base/matrix.cpp.i
+
+module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/module_base/matrix.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix.cpp -o CMakeFiles/gint.dir/module_base/matrix.cpp.s
+
+module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix3.cpp
+module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o -MF CMakeFiles/gint.dir/module_base/matrix3.cpp.o.d -o CMakeFiles/gint.dir/module_base/matrix3.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix3.cpp
+
+module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/module_base/matrix3.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix3.cpp > CMakeFiles/gint.dir/module_base/matrix3.cpp.i
+
+module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/module_base/matrix3.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/matrix3.cpp -o CMakeFiles/gint.dir/module_base/matrix3.cpp.s
+
+module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/memory.cpp
+module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o -MF CMakeFiles/gint.dir/module_base/memory.cpp.o.d -o CMakeFiles/gint.dir/module_base/memory.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/memory.cpp
+
+module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/module_base/memory.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/memory.cpp > CMakeFiles/gint.dir/module_base/memory.cpp.i
+
+module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/module_base/memory.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/memory.cpp -o CMakeFiles/gint.dir/module_base/memory.cpp.s
+
+module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/parallel_reduce.cpp
+module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o -MF CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o.d -o CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/parallel_reduce.cpp
+
+module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/parallel_reduce.cpp > CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.i
+
+module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/module_base/parallel_reduce.cpp -o CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.s
+
+module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/gint_tools.cpp
+module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o -MF CMakeFiles/gint.dir/gint_tools.cpp.o.d -o CMakeFiles/gint.dir/gint_tools.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/gint_tools.cpp
+
+module_gint/CMakeFiles/gint.dir/gint_tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/gint_tools.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/gint_tools.cpp > CMakeFiles/gint.dir/gint_tools.cpp.i
+
+module_gint/CMakeFiles/gint.dir/gint_tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/gint_tools.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/gint_tools.cpp -o CMakeFiles/gint.dir/gint_tools.cpp.s
+
+module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_bigcell.cpp
+module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o -MF CMakeFiles/gint.dir/grid_bigcell.cpp.o.d -o CMakeFiles/gint.dir/grid_bigcell.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_bigcell.cpp
+
+module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/grid_bigcell.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_bigcell.cpp > CMakeFiles/gint.dir/grid_bigcell.cpp.i
+
+module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_bigcell.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_bigcell.cpp -o CMakeFiles/gint.dir/grid_bigcell.cpp.s
+
+module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshball.cpp
+module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o -MF CMakeFiles/gint.dir/grid_meshball.cpp.o.d -o CMakeFiles/gint.dir/grid_meshball.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshball.cpp
+
+module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/grid_meshball.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshball.cpp > CMakeFiles/gint.dir/grid_meshball.cpp.i
+
+module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_meshball.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshball.cpp -o CMakeFiles/gint.dir/grid_meshball.cpp.s
+
+module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshcell.cpp
+module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o -MF CMakeFiles/gint.dir/grid_meshcell.cpp.o.d -o CMakeFiles/gint.dir/grid_meshcell.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshcell.cpp
+
+module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/grid_meshcell.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshcell.cpp > CMakeFiles/gint.dir/grid_meshcell.cpp.i
+
+module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_meshcell.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshcell.cpp -o CMakeFiles/gint.dir/grid_meshcell.cpp.s
+
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
 	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o -MF CMakeFiles/gint.dir/grid_meshk.cpp.o.d -o CMakeFiles/gint.dir/grid_meshk.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp
 
 module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.i: cmake_force
@@ -167,13 +279,36 @@ module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_meshk.cpp.s"
 	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_meshk.cpp -o CMakeFiles/gint.dir/grid_meshk.cpp.s
 
+module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o: module_gint/CMakeFiles/gint.dir/flags.make
+module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o: /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_technique.cpp
+module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o: module_gint/CMakeFiles/gint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/desktop/github/abacus/gint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o -MF CMakeFiles/gint.dir/grid_technique.cpp.o.d -o CMakeFiles/gint.dir/grid_technique.cpp.o -c /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_technique.cpp
+
+module_gint/CMakeFiles/gint.dir/grid_technique.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gint.dir/grid_technique.cpp.i"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_technique.cpp > CMakeFiles/gint.dir/grid_technique.cpp.i
+
+module_gint/CMakeFiles/gint.dir/grid_technique.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gint.dir/grid_technique.cpp.s"
+	cd /home/ubuntu/desktop/github/abacus/gint/build/module_gint && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/desktop/github/abacus/gint/module_gint/grid_technique.cpp -o CMakeFiles/gint.dir/grid_technique.cpp.s
+
 gint: module_gint/CMakeFiles/gint.dir/module_base/timer.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/module_base/global_file.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/module_base/global_function.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/module_base/tool_title.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/grid_meshcell.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o
+gint: module_gint/CMakeFiles/gint.dir/grid_technique.cpp.o
 gint: module_gint/CMakeFiles/gint.dir/build.make
 .PHONY : gint
 
