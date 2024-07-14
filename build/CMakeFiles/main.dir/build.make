@@ -89,9 +89,21 @@ main_OBJECTS = \
 
 # External object files for target main
 main_EXTERNAL_OBJECTS = \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/timer.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/global_file.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/global_function.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/tool_title.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o"
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/timer.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/global_file.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/global_function.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/global_variable.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/tool_title.cpp.o
+main: module_gint/CMakeFiles/gint.dir/module_base/tool_quit.cpp.o
 main: module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libopenblas.so

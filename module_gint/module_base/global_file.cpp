@@ -12,8 +12,8 @@
 
 #include "global_function.h"
 #include "global_variable.h"
-#include "module_base/parallel_common.h"
-#include "module_base/parallel_reduce.h"
+#include "parallel_common.h"
+#include "parallel_reduce.h"
 
 //----------------------------------------------------------
 // EXPLAIN : Be Called in input.cpp

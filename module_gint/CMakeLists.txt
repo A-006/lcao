@@ -1,4 +1,4 @@
-add_subdirectory(module_base)
+# add_subdirectory(module_base)
 
 list(APPEND objects
     # gint.cpp
@@ -16,7 +16,12 @@ list(APPEND objects
     # grid_bigcell.cpp
     # grid_meshball.cpp
     # grid_meshcell.cpp
-    # module_base/tool_quit.cpp
+    module_base/timer.cpp
+    module_base/global_file.cpp
+    module_base/global_function.cpp    
+    module_base/global_variable.cpp
+    module_base/tool_title.cpp
+    module_base/tool_quit.cpp
     grid_meshk.cpp
     # grid_technique.cpp
     # gint_force_cpu_interface.cpp
@@ -65,7 +70,7 @@ add_library(
     ${objects}
 )
 
-target_link_libraries(gint base)
+# target_link_libraries(gint base)
 
 if(ENABLE_COVERAGE)
   add_coverage(gint)
