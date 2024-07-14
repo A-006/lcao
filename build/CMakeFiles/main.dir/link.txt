@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o module_base/CMakeFiles/base.dir/tool_quit.cpp.o module_base/CMakeFiles/base.dir/tool_title.cpp.o module_gint/CMakeFiles/gint.dir/grid_meshk.cpp.o -o main  /usr/lib/x86_64-linux-gnu/libopenblas.so -lm -ldl 
