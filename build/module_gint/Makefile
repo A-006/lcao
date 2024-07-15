@@ -130,6 +130,30 @@ gint/fast:
 	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/build
 .PHONY : gint/fast
 
+gint.o: gint.cpp.o
+.PHONY : gint.o
+
+# target to build an object file
+gint.cpp.o:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint.cpp.o
+.PHONY : gint.cpp.o
+
+gint.i: gint.cpp.i
+.PHONY : gint.i
+
+# target to preprocess a source file
+gint.cpp.i:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint.cpp.i
+.PHONY : gint.cpp.i
+
+gint.s: gint.cpp.s
+.PHONY : gint.s
+
+# target to generate assembly for a file
+gint.cpp.s:
+	cd /home/ubuntu/desktop/github/abacus/gint/build && $(MAKE) $(MAKESILENT) -f module_gint/CMakeFiles/gint.dir/build.make module_gint/CMakeFiles/gint.dir/gint.cpp.s
+.PHONY : gint.cpp.s
+
 gint_tools.o: gint_tools.cpp.o
 .PHONY : gint_tools.o
 
@@ -523,6 +547,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gint"
+	@echo "... gint.o"
+	@echo "... gint.i"
+	@echo "... gint.s"
 	@echo "... gint_tools.o"
 	@echo "... gint_tools.i"
 	@echo "... gint_tools.s"

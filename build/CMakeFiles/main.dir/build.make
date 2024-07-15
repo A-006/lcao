@@ -99,6 +99,7 @@ main_EXTERNAL_OBJECTS = \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o" \
+"/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/gint.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o" \
 "/home/ubuntu/desktop/github/abacus/gint/build/module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o" \
@@ -117,6 +118,7 @@ main: module_gint/CMakeFiles/gint.dir/module_base/matrix.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/matrix3.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/memory.cpp.o
 main: module_gint/CMakeFiles/gint.dir/module_base/parallel_reduce.cpp.o
+main: module_gint/CMakeFiles/gint.dir/gint.cpp.o
 main: module_gint/CMakeFiles/gint.dir/gint_tools.cpp.o
 main: module_gint/CMakeFiles/gint.dir/grid_bigcell.cpp.o
 main: module_gint/CMakeFiles/gint.dir/grid_meshball.cpp.o

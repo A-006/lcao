@@ -15,7 +15,7 @@ list(APPEND objects
       module_base/parallel_reduce.cpp
 )
 list(APPEND objects
-    # gint.cpp
+    gint.cpp
     # gint_gamma_env.cpp
     # gint_gamma_vl.cpp
     # gint_fvl.cpp
